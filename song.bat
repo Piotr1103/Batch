@@ -9,4 +9,4 @@ for /f "tokens=3 delims=	" %%i in ('Type %1^| Find "/youtu."') do (
 )
 set n=
 endlocal
-sort /uniq %1 /o %1.sorted.txt
+sort /uniq rawList.txt /o rawList.sorted.txt
